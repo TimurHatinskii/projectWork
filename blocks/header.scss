@@ -1,0 +1,20 @@
+.header {
+  background: #002c3e;
+  min-height: 160px;
+
+  .logo {
+    display: flex;
+  }
+}
+
+.header__nav {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .logo-img {
+    max-width: 53px;
+    max-height: 32px;
+  }
+}
